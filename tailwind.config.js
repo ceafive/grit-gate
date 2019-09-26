@@ -20,6 +20,9 @@ module.exports = {
         padding: {
             '72': '24rem',
             '105': '34rem'
+        },
+        boxShadow: {
+            '3xl': '0px 22px 79px -47px rgba(255,255,255,0.79);'
         }
     },
     screens: {
