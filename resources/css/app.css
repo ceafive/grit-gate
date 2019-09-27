@@ -4141,8 +4141,12 @@ video {
   clear: both;
 }
 
-.font-body {
+.font-display {
   font-family: Lato;
+}
+
+.font-body {
+  font-family: "Source Sans Pro";
 }
 
 .font-hairline {
@@ -16996,8 +17000,12 @@ video {
     clear: both;
   }
 
-  .xs\:font-body {
+  .xs\:font-display {
     font-family: Lato;
+  }
+
+  .xs\:font-body {
+    font-family: "Source Sans Pro";
   }
 
   .xs\:font-hairline {
@@ -29852,8 +29860,12 @@ video {
     clear: both;
   }
 
-  .sm\:font-body {
+  .sm\:font-display {
     font-family: Lato;
+  }
+
+  .sm\:font-body {
+    font-family: "Source Sans Pro";
   }
 
   .sm\:font-hairline {
@@ -42708,8 +42720,12 @@ video {
     clear: both;
   }
 
-  .md\:font-body {
+  .md\:font-display {
     font-family: Lato;
+  }
+
+  .md\:font-body {
+    font-family: "Source Sans Pro";
   }
 
   .md\:font-hairline {
@@ -55564,8 +55580,12 @@ video {
     clear: both;
   }
 
-  .lg\:font-body {
+  .lg\:font-display {
     font-family: Lato;
+  }
+
+  .lg\:font-body {
+    font-family: "Source Sans Pro";
   }
 
   .lg\:font-hairline {
@@ -68420,8 +68440,12 @@ video {
     clear: both;
   }
 
-  .xl\:font-body {
+  .xl\:font-display {
     font-family: Lato;
+  }
+
+  .xl\:font-body {
+    font-family: "Source Sans Pro";
   }
 
   .xl\:font-hairline {
@@ -81276,8 +81300,12 @@ video {
     clear: both;
   }
 
-  .xl2\:font-body {
+  .xl2\:font-display {
     font-family: Lato;
+  }
+
+  .xl2\:font-body {
+    font-family: "Source Sans Pro";
   }
 
   .xl2\:font-hairline {

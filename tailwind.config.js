@@ -1,7 +1,8 @@
 module.exports = {
   theme: {
     fontFamily: {
-        'body': 'Lato',
+        'display': 'Lato',
+        'body': '"Source Sans Pro"',
     },
     extend: {
         colors: {
