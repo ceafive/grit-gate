@@ -33,5 +33,5 @@ toggle[0].addEventListener("click", function(){
 //Intialize Animate on scroll with 1.2s duration
 
 AOS.init({
-  duration: 2000,
+  duration: 1500,
 })
