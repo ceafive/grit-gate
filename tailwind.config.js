@@ -6,10 +6,11 @@ module.exports = {
     extend: {
         colors: {
             "main_blue": "#0a0e13",
-            "main_green": "#00ea86"
+            "main_green": "#00ea86",
+            "main_green2": "#00c873"
         },
         fontSize: {
-            '4xl_': '2rem'
+            '4xl_': '2rem',
         },
     },
     screens: {
