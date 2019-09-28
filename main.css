@@ -30,8 +30,8 @@ header {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0); }
   50% {
-    -webkit-transform: translate(0, 10px);
-            transform: translate(0, 10px); }
+    -webkit-transform: translate(0, 20px);
+            transform: translate(0, 20px); }
   100% {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0); } 

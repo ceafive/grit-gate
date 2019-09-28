@@ -12,6 +12,16 @@ module.exports = {
         fontSize: {
             '4xl_': '2rem',
         },
+           margin: {
+            '72': '18rem',
+            '86': '20rem',
+            '92': '25rem'
+        },
+        padding: {
+            '72': '18rem',
+            '86': '20rem',
+            '92': '25rem'
+        }
     },
     screens: {
       'xs': '375px',
