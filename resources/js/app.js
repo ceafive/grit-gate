@@ -30,31 +30,8 @@ toggle[0].addEventListener("click", function(){
 });
 
 
-// Owl carousel control for clients list on About page https://owlcarousel2.github.io
+//Intialize Animate on scroll with 1.2s duration
 
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true,
-            autoplay:true,
-            autoplayTimeout:1000
-        },
-        600:{
-            items:3,
-            nav:true,
-            autoplay:true,
-            autoplayTimeout:1000
-        },
-        1000:{
-            items:6,
-             nav:true,
-             autoplay:true,
-            autoplayTimeout:1000
-        }
-    }
+AOS.init({
+  duration: 2000,
 })
-
