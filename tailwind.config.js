@@ -10,7 +10,7 @@ module.exports = {
             "main_green2": "#00c873"
         },
         fontSize: {
-            '4xl_': '2rem',
+            '8xl': '5rem'
         },
            margin: {
             '72': '18rem',
@@ -24,12 +24,13 @@ module.exports = {
         }
     },
     screens: {
-      'xs': '375px',
-      'sm': '640px',
-      'md': '768px',
-      'lg': '1024px',
-      'xl': '1280px',
-      'xl2': '1630px'
+            'xxs': '320px',
+            'xs': '375px',
+            'sm': '640px',
+            'md': '768px',
+            'lg': '1024px',
+            'xl': '1280px',
+            'xl2': '1630px'
     }
   },
   variants: {
