@@ -56,14 +56,8 @@
 
 
 <section>
-    <div class="flex flex-wrap bg-main_blue">
-        <div class="banner w-full xxs:h-20 lg:h-40">
-            <h1 class="text-center xxs:text-2xl lg:text-4xl xxs:py-4 lg:py-12">
-            CONTACT US
-            </h1>
-        </div>
-        <div class="flex flex-wrap w-full py-10 lg:px-24">
-           <div class="xxs:w-full lg:w-1/2 xxs:px-6">
+    <div class="flex flex-wrap font-hairline">
+           <div class="xxs:w-full lg:w-1/2 xxs:px-6 xxs:py-12 lg:py-56 lg:px-24">
                 <form class="w-full" name="contact" method="POST" data-netlify="true">
                 <div class="flex flex-wrap mb-6">
                     <div class="w-full md:w-1/2 xxs:pr-4 pt-4">
@@ -76,7 +70,7 @@
                         <label class="tracking-wide mb-2" for="grid-company-name">
                     Company Name
                         </label>
-                        <input class="appearance-none bg-transparent border-b border-b-2 border-main_green w-full  mr-3 py-1 leading-tight focus:outline-none" name="company_name" type="text" placeholder="" aria-label="Full name">
+                        <input class="appearance-none bg-transparent border-b border-b-2 border-main_green w-full  mr-3 py-1 leading-tight focus:outline-none" name="company_name" type="text" placeholder="" aria-label="full name">
                     </div>
                     <div class="w-full md:w-1/2 xxs:pr-4 pt-4">
                         <label class="tracking-wide mb-2" for="grid-email">
@@ -94,23 +88,24 @@
                         <label class="tracking-wide mb-4" for="grid-message">
                     Please input your enquiry here
                         </label>
-                        <textarea class="appearance-none bg-transparent border border-2 border-main_green w-full mr-3 py-1 leading-tight focus:outline-none" cols="50" rows="5" name="message" placeholder="" aria-label="info"></textarea>
+                        <textarea class="appearance-none bg-transparent border border-2 border-main_green w-full mb-3 py-1 leading-tight focus:outline-none" cols="50" rows="5" name="message" placeholder="" aria-label="info" required></textarea>
                     </div>
                     <div class="w-full xxs:pr-4" data-netlify-recaptcha="true">
 
                     </div>
-                </div>
-                        <button class="flex-shrink-0 bg-gray-900 text-main_green hover:bg-main_green hover:text-main_blue font-hairline outline-none mr-4 py-2 px-8" type="submit">
+                    <button class="flex justify-end flex-shrink-0 bg-gray-900 text-main_green hover:bg-main_green hover:text-gray-900 font-hairline outline-none py-2 px-8" type="submit">
                     send request
-                        </button>
+                    </button>
+                </div>
+                        
                 </form>  
             </div>
         
         
         
-        <div class="xxs:w-full lg:w-1/2 xxs:py-4 xxs:text-center text-xl">
-            <h1 class='text-main_green py-2'>
-                    Contact
+        <div class="xxs:w-full lg:w-1/2 xxs:text-center text-2xl xxs:py-6 lg:py-72 lg:px-24 bg-main_green3">
+            <h1 class='text-black py-2'>
+                    Call or Email Us
             </h1>
             <p>
                 <span>+233 505 0005 15</span><br>
@@ -118,7 +113,7 @@
                 <span>info@gritgate.com</span>
             </p>
         </div>
-    </div>
+
 </section>
 
 

@@ -7,7 +7,8 @@ module.exports = {
         colors: {
             "main_blue": "#0a0e13",
             "main_green": "#00ea86",
-            "main_green2": "#00c873"
+            "main_green2": "#00c873",
+            "main_green3": "#00a65f"
         },
         fontSize: {
             '8xl': '5rem'
