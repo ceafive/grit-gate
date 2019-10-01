@@ -36,7 +36,3 @@ header {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0); } 
 }
-
-.behind {
-background: linear-gradient(90deg, rgba(10,14,19,1) 50%, rgba(0,200,115,1) 50%);
-    }
